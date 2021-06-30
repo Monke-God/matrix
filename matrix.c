@@ -2,8 +2,8 @@
 
 int main()
 {
-    int arr[3][3][3];
-    int *ptr = &arr[0][0][0];
+    int arr[3][3];
+    int *ptr = &arr[0][0];
     printf("Input elements in the matrix : \n");
     for (int i = 0; i < 3; i++)
     {
